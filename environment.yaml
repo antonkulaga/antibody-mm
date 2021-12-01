@@ -1,0 +1,16 @@
+name: antibody-mm
+channels:
+  - defaults
+  - conda-forge
+  - antonkulaga
+  - bioconda
+dependencies:
+  - python=3.9
+  - jupyterlab=3.2.4
+  - more-itertools=8.11.0
+  - openmm=7.6.0
+  - pdbfixer
+  - click
+  - pip:
+      - pyfunctional
+      - tdqm
