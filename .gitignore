@@ -154,3 +154,4 @@ project/boot/
 project/plugins/project/
 .idea
 .idea/*
+data/output/*
