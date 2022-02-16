@@ -155,3 +155,4 @@ project/plugins/project/
 .idea
 .idea/*
 data/output/*
+*.whl

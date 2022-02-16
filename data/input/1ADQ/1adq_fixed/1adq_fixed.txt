@@ -1,0 +1,461 @@
+#Please Reference North, B., A. Lehmann, and R.L. Dunbrack, Jr., A new clustering of antibody CDR loop conformations. JMB, 2011. 406(2): p. 228-56.
+
+#file CHAIN original_chain identification is_scfv ig_domains
+#file DOMAIN original_chain identification new_chain gene score evalue
+#file CDR type old_resnum old_chain new_resnum new_chain sequence cluster distance normDis normDisDeg
+
+1adq_fixed CHAIN A non_ig NA NA
+1adq_fixed CHAIN H ig_ab False 1
+1adq_fixed DOMAIN H ig_ab heavy 178.7 2e-57
+CLUSTER 1adq_fixed CDR H1	23	H	24	H	VTSGFTFDDYAMH	H1-13-1	1.1315	0.0435	11.97
+CLUSTER 1adq_fixed CDR H2	50	H	57	H	GISWNTGTII	H2-10-2	1.5348	0.0767	15.92
+CLUSTER 1adq_fixed CDR H3	93	H	107	H	AKTRSYVVAAEYYFHY	H3-16-2	18.5180	0.5787	44.71
+
+#model original_chain chain_type new_chain resname old_resnum old_icode new_resnum new_icode region_type cdr_type cluster
+1adq_fixed	H	H	H	E	    1	 	    1	 	FRAME		 
+1adq_fixed	H	H	H	V	    2	 	    2	 	FRAME		 
+1adq_fixed	H	H	H	Q	    3	 	    3	 	FRAME		 
+1adq_fixed	H	H	H	L	    4	 	    4	 	FRAME		 
+1adq_fixed	H	H	H	V	    5	 	    5	 	FRAME		 
+1adq_fixed	H	H	H	E	    6	 	    6	 	FRAME		 
+1adq_fixed	H	H	H	S	    7	 	    7	 	FRAME		 
+1adq_fixed	H	H	H	G	    8	 	    9	 	FRAME		 
+1adq_fixed	H	H	H	G	    9	 	   10	 	FRAME		 
+1adq_fixed	H	H	H	G	   10	 	   11	 	FRAME		 
+1adq_fixed	H	H	H	L	   11	 	   12	 	FRAME		 
+1adq_fixed	H	H	H	V	   12	 	   13	 	FRAME		 
+1adq_fixed	H	H	H	Q	   13	 	   14	 	FRAME		 
+1adq_fixed	H	H	H	P	   14	 	   15	 	FRAME		 
+1adq_fixed	H	H	H	G	   15	 	   16	 	FRAME		 
+1adq_fixed	H	H	H	R	   16	 	   17	 	FRAME		 
+1adq_fixed	H	H	H	S	   17	 	   18	 	FRAME		 
+1adq_fixed	H	H	H	L	   18	 	   19	 	FRAME		 
+1adq_fixed	H	H	H	R	   19	 	   20	 	FRAME		 
+1adq_fixed	H	H	H	L	   20	 	   21	 	FRAME		 
+1adq_fixed	H	H	H	S	   21	 	   22	 	FRAME		 
+1adq_fixed	H	H	H	C	   22	 	   23	 	FRAME		 
+1adq_fixed	H	H	H	V	   23	 	   24	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	T	   24	 	   25	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	S	   25	 	   26	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	G	   26	 	   27	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	F	   27	 	   28	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	T	   28	 	   29	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	F	   29	 	   30	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	D	   30	 	   37	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	D	   31	 	   38	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	Y	   32	 	   39	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	A	   33	 	   40	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	M	   34	 	   41	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	H	   35	 	   42	 	CDR	H1	H1-13-1
+1adq_fixed	H	H	H	W	   36	 	   43	 	FRAME		 
+1adq_fixed	H	H	H	V	   37	 	   44	 	FRAME		 
+1adq_fixed	H	H	H	R	   38	 	   45	 	FRAME		 
+1adq_fixed	H	H	H	Q	   39	 	   46	 	FRAME		 
+1adq_fixed	H	H	H	S	   40	 	   47	 	FRAME		 
+1adq_fixed	H	H	H	P	   41	 	   48	 	FRAME		 
+1adq_fixed	H	H	H	G	   42	 	   49	 	FRAME		 
+1adq_fixed	H	H	H	K	   43	 	   50	 	FRAME		 
+1adq_fixed	H	H	H	G	   44	 	   51	 	FRAME		 
+1adq_fixed	H	H	H	L	   45	 	   52	 	FRAME		 
+1adq_fixed	H	H	H	E	   46	 	   53	 	FRAME		 
+1adq_fixed	H	H	H	W	   47	 	   54	 	FRAME		 
+1adq_fixed	H	H	H	V	   48	 	   55	 	FRAME		 
+1adq_fixed	H	H	H	S	   49	 	   56	 	FRAME		 
+1adq_fixed	H	H	H	G	   50	 	   57	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	I	   51	 	   58	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	S	   52	 	   59	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	W	   52	A	   60	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	N	   53	 	   61	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	T	   54	 	   65	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	G	   55	 	   66	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	T	   56	 	   67	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	I	   57	 	   68	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	I	   58	 	   69	 	CDR	H2	H2-10-2
+1adq_fixed	H	H	H	Y	   59	 	   70	 	FRAME		 
+1adq_fixed	H	H	H	A	   60	 	   71	 	FRAME		 
+1adq_fixed	H	H	H	D	   61	 	   72	 	FRAME		 
+1adq_fixed	H	H	H	S	   62	 	   73	 	FRAME		 
+1adq_fixed	H	H	H	V	   63	 	   74	 	FRAME		 
+1adq_fixed	H	H	H	K	   64	 	   75	 	FRAME		 
+1adq_fixed	H	H	H	G	   65	 	   76	 	FRAME		 
+1adq_fixed	H	H	H	R	   66	 	   77	 	FRAME		 
+1adq_fixed	H	H	H	F	   67	 	   78	 	FRAME		 
+1adq_fixed	H	H	H	I	   68	 	   79	 	FRAME		 
+1adq_fixed	H	H	H	I	   69	 	   80	 	FRAME		 
+1adq_fixed	H	H	H	S	   70	 	   81	 	FRAME		 
+1adq_fixed	H	H	H	R	   71	 	   82	 	FRAME		 
+1adq_fixed	H	H	H	D	   72	 	   83	 	FRAME		 
+1adq_fixed	H	H	H	N	   73	 	   84	 	FRAME		 
+1adq_fixed	H	H	H	A	   74	 	   85	 	FRAME		 
+1adq_fixed	H	H	H	K	   75	 	   86	 	FRAME		 
+1adq_fixed	H	H	H	N	   76	 	   87	 	FRAME		 
+1adq_fixed	H	H	H	S	   77	 	   88	 	FRAME		 
+1adq_fixed	H	H	H	L	   78	 	   89	 	FRAME		 
+1adq_fixed	H	H	H	Y	   79	 	   90	 	FRAME		 
+1adq_fixed	H	H	H	L	   80	 	   91	 	FRAME		 
+1adq_fixed	H	H	H	Q	   81	 	   92	 	FRAME		 
+1adq_fixed	H	H	H	M	   82	 	   93	 	FRAME		 
+1adq_fixed	H	H	H	N	   82	A	   94	 	FRAME		 
+1adq_fixed	H	H	H	S	   82	B	   95	 	FRAME		 
+1adq_fixed	H	H	H	L	   82	C	   96	 	FRAME		 
+1adq_fixed	H	H	H	R	   83	 	   97	 	FRAME		 
+1adq_fixed	H	H	H	V	   84	 	   98	 	FRAME		 
+1adq_fixed	H	H	H	E	   85	 	   99	 	FRAME		 
+1adq_fixed	H	H	H	D	   86	 	  100	 	FRAME		 
+1adq_fixed	H	H	H	T	   87	 	  101	 	FRAME		 
+1adq_fixed	H	H	H	A	   88	 	  102	 	FRAME		 
+1adq_fixed	H	H	H	L	   89	 	  103	 	FRAME		 
+1adq_fixed	H	H	H	Y	   90	 	  104	 	FRAME		 
+1adq_fixed	H	H	H	Y	   91	 	  105	 	FRAME		 
+1adq_fixed	H	H	H	C	   92	 	  106	 	FRAME		 
+1adq_fixed	H	H	H	A	   93	 	  107	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	K	   94	 	  108	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	T	   95	 	  109	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	R	   96	 	  110	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	S	   97	 	  111	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	Y	   98	 	  112	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	V	   99	 	  113	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	V	  100	 	  114	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	A	  100	A	  131	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	A	  100	B	  132	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	E	  100	C	  133	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	Y	  100	D	  134	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	Y	  100	E	  135	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	F	  100	F	  136	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	H	  101	 	  137	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	Y	  102	 	  138	 	CDR	H3	H3-16-2
+1adq_fixed	H	H	H	W	  103	 	  139	 	FRAME		 
+1adq_fixed	H	H	H	G	  104	 	  140	 	FRAME		 
+1adq_fixed	H	H	H	Q	  105	 	  141	 	FRAME		 
+1adq_fixed	H	H	H	G	  106	 	  142	 	FRAME		 
+1adq_fixed	H	H	H	I	  107	 	  143	 	FRAME		 
+1adq_fixed	H	H	H	L	  108	 	  144	 	FRAME		 
+1adq_fixed	H	H	H	V	  109	 	  145	 	FRAME		 
+1adq_fixed	H	H	H	T	  110	 	  146	 	FRAME		 
+1adq_fixed	H	H	H	V	  111	 	  147	 	FRAME		 
+1adq_fixed	H	H	H	S	  112	 	  148	 	FRAME		 
+1adq_fixed	H	H	H	S	  113	 	  149	 	FRAME		 
+1adq_fixed	H	H	H	G	  114	 	  150	 			 
+1adq_fixed	H	H	H	S	  115	 	  151	 			 
+1adq_fixed	H	H	H	A	  116	 	  152	 			 
+1adq_fixed	H	H	H	S	  117	 	  153	 			 
+1adq_fixed	H	H	H	A	  118	 	  154	 			 
+1adq_fixed	H	H	H	P	  119	 	  155	 			 
+1adq_fixed	H	H	H	T	  120	 	  156	 			 
+1adq_fixed	H	H	H	L	  121	 	  157	 			 
+1adq_fixed	H	H	H	F	  122	 	  158	 			 
+1adq_fixed	H	H	H	P	  123	 	  159	 			 
+1adq_fixed	H	H	H	L	  124	 	  160	 			 
+1adq_fixed	H	H	H	V	  125	 	  161	 			 
+1adq_fixed	H	H	H	S	  126	 	  162	 			 
+1adq_fixed	H	H	H	C	  127	 	  163	 			 
+1adq_fixed	H	H	H	E	  128	 	  164	 			 
+1adq_fixed	H	H	H	N	  129	 	  165	 			 
+1adq_fixed	H	H	H	S	  130	 	  166	 			 
+1adq_fixed	H	H	H	N	  133	 	  167	 			 
+1adq_fixed	H	H	H	P	  134	 	  168	 			 
+1adq_fixed	H	H	H	S	  135	 	  169	 			 
+1adq_fixed	H	H	H	S	  136	 	  170	 			 
+1adq_fixed	H	H	H	T	  137	 	  171	 			 
+1adq_fixed	H	H	H	V	  138	 	  172	 			 
+1adq_fixed	H	H	H	A	  139	 	  173	 			 
+1adq_fixed	H	H	H	V	  140	 	  174	 			 
+1adq_fixed	H	H	H	G	  141	 	  175	 			 
+1adq_fixed	H	H	H	C	  142	 	  176	 			 
+1adq_fixed	H	H	H	L	  143	 	  177	 			 
+1adq_fixed	H	H	H	A	  144	 	  178	 			 
+1adq_fixed	H	H	H	Q	  145	 	  179	 			 
+1adq_fixed	H	H	H	D	  146	 	  180	 			 
+1adq_fixed	H	H	H	F	  147	 	  181	 			 
+1adq_fixed	H	H	H	L	  148	 	  182	 			 
+1adq_fixed	H	H	H	P	  149	 	  183	 			 
+1adq_fixed	H	H	H	D	  150	 	  184	 			 
+1adq_fixed	H	H	H	S	  151	 	  185	 			 
+1adq_fixed	H	H	H	I	  152	 	  186	 			 
+1adq_fixed	H	H	H	T	  153	 	  187	 			 
+1adq_fixed	H	H	H	F	  154	 	  188	 			 
+1adq_fixed	H	H	H	S	  156	 	  189	 			 
+1adq_fixed	H	H	H	W	  157	 	  190	 			 
+1adq_fixed	H	H	H	K	  158	 	  191	 			 
+1adq_fixed	H	H	H	Y	  159	 	  192	 			 
+1adq_fixed	H	H	H	K	  160	 	  193	 			 
+1adq_fixed	H	H	H	N	  161	 	  194	 			 
+1adq_fixed	H	H	H	N	  162	 	  195	 			 
+1adq_fixed	H	H	H	S	  163	 	  196	 			 
+1adq_fixed	H	H	H	D	  164	 	  197	 			 
+1adq_fixed	H	H	H	I	  165	 	  198	 			 
+1adq_fixed	H	H	H	S	  168	 	  199	 			 
+1adq_fixed	H	H	H	S	  169	 	  200	 			 
+1adq_fixed	H	H	H	T	  171	 	  201	 			 
+1adq_fixed	H	H	H	R	  172	 	  202	 			 
+1adq_fixed	H	H	H	G	  173	 	  203	 			 
+1adq_fixed	H	H	H	F	  174	 	  204	 			 
+1adq_fixed	H	H	H	P	  175	 	  205	 			 
+1adq_fixed	H	H	H	S	  176	 	  206	 			 
+1adq_fixed	H	H	H	V	  177	 	  207	 			 
+1adq_fixed	H	H	H	L	  178	 	  208	 			 
+1adq_fixed	H	H	H	R	  179	 	  209	 			 
+1adq_fixed	H	H	H	G	  180	 	  210	 			 
+1adq_fixed	H	H	H	G	  183	 	  211	 			 
+1adq_fixed	H	H	H	K	  184	 	  212	 			 
+1adq_fixed	H	H	H	Y	  185	 	  213	 			 
+1adq_fixed	H	H	H	A	  186	 	  214	 			 
+1adq_fixed	H	H	H	A	  187	 	  215	 			 
+1adq_fixed	H	H	H	T	  188	 	  216	 			 
+1adq_fixed	H	H	H	S	  189	 	  217	 			 
+1adq_fixed	H	H	H	Q	  190	 	  218	 			 
+1adq_fixed	H	H	H	V	  191	 	  219	 			 
+1adq_fixed	H	H	H	L	  192	 	  220	 			 
+1adq_fixed	H	H	H	L	  193	 	  221	 			 
+1adq_fixed	H	H	H	P	  194	 	  222	 			 
+1adq_fixed	H	H	H	S	  195	 	  223	 			 
+1adq_fixed	H	H	H	K	  196	 	  224	 			 
+1adq_fixed	H	H	H	D	  197	 	  225	 			 
+1adq_fixed	H	H	H	V	  198	 	  226	 			 
+1adq_fixed	H	H	H	M	  199	 	  227	 			 
+1adq_fixed	H	H	H	Q	  200	 	  228	 			 
+1adq_fixed	H	H	H	G	  201	 	  229	 			 
+1adq_fixed	H	H	H	T	  202	 	  230	 			 
+1adq_fixed	H	H	H	N	  203	 	  231	 			 
+1adq_fixed	H	H	H	E	  204	 	  232	 			 
+1adq_fixed	H	H	H	H	  205	 	  233	 			 
+1adq_fixed	H	H	H	V	  206	 	  234	 			 
+1adq_fixed	H	H	H	V	  207	 	  235	 			 
+1adq_fixed	H	H	H	C	  208	 	  236	 			 
+1adq_fixed	H	H	H	K	  209	 	  237	 			 
+1adq_fixed	H	H	H	V	  211	 	  238	 			 
+1adq_fixed	H	H	H	Q	  212	 	  239	 			 
+1adq_fixed	H	H	H	H	  213	 	  240	 			 
+1adq_fixed	H	H	H	P	  214	 	  241	 			 
+1adq_fixed	H	H	H	N	  215	 	  242	 			 
+1adq_fixed	H	H	H	G	  216	 	  243	 			 
+1adq_fixed	H	H	H	N	  217	 	  244	 			 
+1adq_fixed	H	H	H	K	  218	 	  245	 			 
+1adq_fixed	H	H	H	E	  220	 	  246	 			 
+1adq_fixed	H	H	H	K	  221	 	  247	 			 
+1adq_fixed	H	H	H	D	  222	 	  248	 			 
+1adq_fixed	H	H	H	V	  223	 	  249	 			 
+1adq_fixed	H	H	H	P	  223	A	  250	 			 
+1adq_fixed	H	H	H	L	  223	B	  251	 			 
+
+1adq_fixed CHAIN L ig_ab False 1
+1adq_fixed DOMAIN L ig_ab lambda 185.5 1.4e-59
+CLUSTER 1adq_fixed CDR L1	24	L	24	L	GGNNIGSKSVH	L1-11-3	0.5730	0.0260	9.26
+CLUSTER 1adq_fixed CDR L2	49	L	57	L	YDDSDRPP	L2-8-1	1.0874	0.0680	14.98
+CLUSTER 1adq_fixed CDR L3	89	L	107	L	QVWDSSSDHAV	L3-11-1	3.0785	0.1399	21.56
+
+#model original_chain chain_type new_chain resname old_resnum old_icode new_resnum new_icode region_type cdr_type cluster
+1adq_fixed	L	L	L	Y	    2	 	    2	 	FRAME		 
+1adq_fixed	L	L	L	V	    3	 	    3	 	FRAME		 
+1adq_fixed	L	L	L	L	    4	 	    4	 	FRAME		 
+1adq_fixed	L	L	L	T	    5	 	    5	 	FRAME		 
+1adq_fixed	L	L	L	Q	    6	 	    6	 	FRAME		 
+1adq_fixed	L	L	L	P	    7	 	    7	 	FRAME		 
+1adq_fixed	L	L	L	P	    8	 	    9	 	FRAME		 
+1adq_fixed	L	L	L	S	    9	 	   10	 	FRAME		 
+1adq_fixed	L	L	L	V	   11	 	   11	 	FRAME		 
+1adq_fixed	L	L	L	S	   12	 	   12	 	FRAME		 
+1adq_fixed	L	L	L	V	   13	 	   13	 	FRAME		 
+1adq_fixed	L	L	L	A	   14	 	   14	 	FRAME		 
+1adq_fixed	L	L	L	P	   15	 	   15	 	FRAME		 
+1adq_fixed	L	L	L	G	   16	 	   16	 	FRAME		 
+1adq_fixed	L	L	L	Q	   17	 	   17	 	FRAME		 
+1adq_fixed	L	L	L	T	   18	 	   18	 	FRAME		 
+1adq_fixed	L	L	L	A	   19	 	   19	 	FRAME		 
+1adq_fixed	L	L	L	R	   20	 	   20	 	FRAME		 
+1adq_fixed	L	L	L	I	   21	 	   21	 	FRAME		 
+1adq_fixed	L	L	L	T	   22	 	   22	 	FRAME		 
+1adq_fixed	L	L	L	C	   23	 	   23	 	FRAME		 
+1adq_fixed	L	L	L	G	   24	 	   24	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	G	   25	 	   25	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	N	   26	 	   26	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	N	   27	 	   27	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	I	   28	 	   28	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	G	   29	 	   29	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	S	   30	 	   38	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	K	   31	 	   39	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	S	   32	 	   40	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	V	   33	 	   41	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	H	   34	 	   42	 	CDR	L1	L1-11-3
+1adq_fixed	L	L	L	W	   35	 	   43	 	FRAME		 
+1adq_fixed	L	L	L	Y	   36	 	   44	 	FRAME		 
+1adq_fixed	L	L	L	Q	   37	 	   45	 	FRAME		 
+1adq_fixed	L	L	L	Q	   38	 	   46	 	FRAME		 
+1adq_fixed	L	L	L	K	   39	 	   47	 	FRAME		 
+1adq_fixed	L	L	L	P	   40	 	   48	 	FRAME		 
+1adq_fixed	L	L	L	G	   41	 	   49	 	FRAME		 
+1adq_fixed	L	L	L	Q	   42	 	   50	 	FRAME		 
+1adq_fixed	L	L	L	A	   43	 	   51	 	FRAME		 
+1adq_fixed	L	L	L	P	   44	 	   52	 	FRAME		 
+1adq_fixed	L	L	L	V	   45	 	   53	 	FRAME		 
+1adq_fixed	L	L	L	L	   46	 	   54	 	FRAME		 
+1adq_fixed	L	L	L	V	   47	 	   55	 	FRAME		 
+1adq_fixed	L	L	L	V	   48	 	   56	 	FRAME		 
+1adq_fixed	L	L	L	Y	   49	 	   57	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	D	   50	 	   58	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	D	   51	 	   59	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	S	   52	 	   60	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	D	   53	 	   69	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	R	   54	 	   70	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	P	   55	 	   71	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	P	   56	 	   72	 	CDR	L2	L2-8-1
+1adq_fixed	L	L	L	G	   57	 	   73	 	FRAME		 
+1adq_fixed	L	L	L	I	   58	 	   74	 	FRAME		 
+1adq_fixed	L	L	L	P	   59	 	   75	 	FRAME		 
+1adq_fixed	L	L	L	E	   60	 	   76	 	FRAME		 
+1adq_fixed	L	L	L	R	   61	 	   77	 	FRAME		 
+1adq_fixed	L	L	L	F	   62	 	   78	 	FRAME		 
+1adq_fixed	L	L	L	S	   63	 	   79	 	FRAME		 
+1adq_fixed	L	L	L	G	   64	 	   80	 	FRAME		 
+1adq_fixed	L	L	L	S	   65	 	   81	 	FRAME		 
+1adq_fixed	L	L	L	N	   66	 	   82	 	FRAME		 
+1adq_fixed	L	L	L	S	   67	 	   83	 	FRAME		 
+1adq_fixed	L	L	L	G	   68	 	   84	 	FRAME		 
+1adq_fixed	L	L	L	N	   69	 	   87	 	FRAME		 
+1adq_fixed	L	L	L	T	   70	 	   88	 	FRAME		 
+1adq_fixed	L	L	L	A	   71	 	   89	 	FRAME		 
+1adq_fixed	L	L	L	T	   72	 	   90	 	FRAME		 
+1adq_fixed	L	L	L	L	   73	 	   91	 	FRAME		 
+1adq_fixed	L	L	L	T	   74	 	   92	 	FRAME		 
+1adq_fixed	L	L	L	I	   75	 	   93	 	FRAME		 
+1adq_fixed	L	L	L	S	   76	 	   94	 	FRAME		 
+1adq_fixed	L	L	L	R	   77	 	   95	 	FRAME		 
+1adq_fixed	L	L	L	V	   78	 	   96	 	FRAME		 
+1adq_fixed	L	L	L	E	   79	 	   97	 	FRAME		 
+1adq_fixed	L	L	L	A	   80	 	   98	 	FRAME		 
+1adq_fixed	L	L	L	G	   81	 	   99	 	FRAME		 
+1adq_fixed	L	L	L	D	   82	 	  100	 	FRAME		 
+1adq_fixed	L	L	L	E	   83	 	  101	 	FRAME		 
+1adq_fixed	L	L	L	A	   84	 	  102	 	FRAME		 
+1adq_fixed	L	L	L	D	   85	 	  103	 	FRAME		 
+1adq_fixed	L	L	L	Y	   86	 	  104	 	FRAME		 
+1adq_fixed	L	L	L	Y	   87	 	  105	 	FRAME		 
+1adq_fixed	L	L	L	C	   88	 	  106	 	FRAME		 
+1adq_fixed	L	L	L	Q	   89	 	  107	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	V	   90	 	  108	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	W	   91	 	  109	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	D	   92	 	  110	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	S	   93	 	  111	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	S	   94	 	  112	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	S	   95	 	  134	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	D	   95	A	  135	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	H	   95	B	  136	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	A	   96	 	  137	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	V	   97	 	  138	 	CDR	L3	L3-11-1
+1adq_fixed	L	L	L	F	   98	 	  139	 	FRAME		 
+1adq_fixed	L	L	L	G	   99	 	  140	 	FRAME		 
+1adq_fixed	L	L	L	G	  100	 	  141	 	FRAME		 
+1adq_fixed	L	L	L	G	  101	 	  142	 	FRAME		 
+1adq_fixed	L	L	L	T	  102	 	  143	 	FRAME		 
+1adq_fixed	L	L	L	K	  103	 	  144	 	FRAME		 
+1adq_fixed	L	L	L	L	  104	 	  145	 	FRAME		 
+1adq_fixed	L	L	L	T	  105	 	  146	 	FRAME		 
+1adq_fixed	L	L	L	V	  106	 	  147	 	FRAME		 
+1adq_fixed	L	L	L	L	  106	A	  148	 	FRAME		 
+1adq_fixed	L	L	L	G	  107	 	  149	 	FRAME		 
+1adq_fixed	L	L	L	Q	  108	 	  150	 			 
+1adq_fixed	L	L	L	P	  109	 	  151	 			 
+1adq_fixed	L	L	L	K	  110	 	  152	 			 
+1adq_fixed	L	L	L	A	  111	 	  153	 			 
+1adq_fixed	L	L	L	A	  112	 	  154	 			 
+1adq_fixed	L	L	L	P	  113	 	  155	 			 
+1adq_fixed	L	L	L	S	  114	 	  156	 			 
+1adq_fixed	L	L	L	V	  115	 	  157	 			 
+1adq_fixed	L	L	L	T	  116	 	  158	 			 
+1adq_fixed	L	L	L	L	  117	 	  159	 			 
+1adq_fixed	L	L	L	F	  118	 	  160	 			 
+1adq_fixed	L	L	L	P	  119	 	  161	 			 
+1adq_fixed	L	L	L	P	  120	 	  162	 			 
+1adq_fixed	L	L	L	S	  121	 	  163	 			 
+1adq_fixed	L	L	L	S	  122	 	  164	 			 
+1adq_fixed	L	L	L	E	  123	 	  165	 			 
+1adq_fixed	L	L	L	E	  124	 	  166	 			 
+1adq_fixed	L	L	L	L	  125	 	  167	 			 
+1adq_fixed	L	L	L	Q	  126	 	  168	 			 
+1adq_fixed	L	L	L	A	  127	 	  169	 			 
+1adq_fixed	L	L	L	N	  128	 	  170	 			 
+1adq_fixed	L	L	L	K	  129	 	  171	 			 
+1adq_fixed	L	L	L	A	  130	 	  172	 			 
+1adq_fixed	L	L	L	T	  131	 	  173	 			 
+1adq_fixed	L	L	L	L	  132	 	  174	 			 
+1adq_fixed	L	L	L	V	  133	 	  175	 			 
+1adq_fixed	L	L	L	C	  134	 	  176	 			 
+1adq_fixed	L	L	L	L	  135	 	  177	 			 
+1adq_fixed	L	L	L	I	  136	 	  178	 			 
+1adq_fixed	L	L	L	S	  137	 	  179	 			 
+1adq_fixed	L	L	L	D	  138	 	  180	 			 
+1adq_fixed	L	L	L	F	  139	 	  181	 			 
+1adq_fixed	L	L	L	Y	  140	 	  182	 			 
+1adq_fixed	L	L	L	P	  141	 	  183	 			 
+1adq_fixed	L	L	L	G	  142	 	  184	 			 
+1adq_fixed	L	L	L	A	  143	 	  185	 			 
+1adq_fixed	L	L	L	V	  144	 	  186	 			 
+1adq_fixed	L	L	L	T	  145	 	  187	 			 
+1adq_fixed	L	L	L	V	  146	 	  188	 			 
+1adq_fixed	L	L	L	A	  147	 	  189	 			 
+1adq_fixed	L	L	L	W	  148	 	  190	 			 
+1adq_fixed	L	L	L	K	  149	 	  191	 			 
+1adq_fixed	L	L	L	A	  150	 	  192	 			 
+1adq_fixed	L	L	L	D	  151	 	  193	 			 
+1adq_fixed	L	L	L	G	  152	 	  194	 			 
+1adq_fixed	L	L	L	S	  153	 	  195	 			 
+1adq_fixed	L	L	L	P	  154	 	  196	 			 
+1adq_fixed	L	L	L	V	  155	 	  197	 			 
+1adq_fixed	L	L	L	K	  156	 	  198	 			 
+1adq_fixed	L	L	L	A	  157	 	  199	 			 
+1adq_fixed	L	L	L	G	  158	 	  200	 			 
+1adq_fixed	L	L	L	V	  159	 	  201	 			 
+1adq_fixed	L	L	L	E	  160	 	  202	 			 
+1adq_fixed	L	L	L	T	  161	 	  203	 			 
+1adq_fixed	L	L	L	T	  162	 	  204	 			 
+1adq_fixed	L	L	L	T	  163	 	  205	 			 
+1adq_fixed	L	L	L	P	  164	 	  206	 			 
+1adq_fixed	L	L	L	S	  165	 	  207	 			 
+1adq_fixed	L	L	L	K	  166	 	  208	 			 
+1adq_fixed	L	L	L	Q	  167	 	  209	 			 
+1adq_fixed	L	L	L	S	  168	 	  210	 			 
+1adq_fixed	L	L	L	N	  170	 	  211	 			 
+1adq_fixed	L	L	L	N	  171	 	  212	 			 
+1adq_fixed	L	L	L	K	  172	 	  213	 			 
+1adq_fixed	L	L	L	Y	  173	 	  214	 			 
+1adq_fixed	L	L	L	A	  174	 	  215	 			 
+1adq_fixed	L	L	L	A	  175	 	  216	 			 
+1adq_fixed	L	L	L	S	  176	 	  217	 			 
+1adq_fixed	L	L	L	S	  177	 	  218	 			 
+1adq_fixed	L	L	L	Y	  178	 	  219	 			 
+1adq_fixed	L	L	L	L	  179	 	  220	 			 
+1adq_fixed	L	L	L	S	  180	 	  221	 			 
+1adq_fixed	L	L	L	L	  181	 	  222	 			 
+1adq_fixed	L	L	L	T	  182	 	  223	 			 
+1adq_fixed	L	L	L	P	  183	 	  224	 			 
+1adq_fixed	L	L	L	E	  184	 	  225	 			 
+1adq_fixed	L	L	L	Q	  185	 	  226	 			 
+1adq_fixed	L	L	L	W	  186	 	  227	 			 
+1adq_fixed	L	L	L	K	  187	 	  228	 			 
+1adq_fixed	L	L	L	S	  188	 	  229	 			 
+1adq_fixed	L	L	L	H	  189	 	  230	 			 
+1adq_fixed	L	L	L	K	  190	 	  231	 			 
+1adq_fixed	L	L	L	S	  191	 	  232	 			 
+1adq_fixed	L	L	L	Y	  192	 	  233	 			 
+1adq_fixed	L	L	L	S	  193	 	  234	 			 
+1adq_fixed	L	L	L	C	  194	 	  235	 			 
+1adq_fixed	L	L	L	Q	  195	 	  236	 			 
+1adq_fixed	L	L	L	V	  196	 	  237	 			 
+1adq_fixed	L	L	L	T	  197	 	  238	 			 
+1adq_fixed	L	L	L	H	  198	 	  239	 			 
+1adq_fixed	L	L	L	E	  199	 	  240	 			 
+1adq_fixed	L	L	L	G	  200	 	  241	 			 
+1adq_fixed	L	L	L	S	  203	 	  242	 			 
+1adq_fixed	L	L	L	T	  204	 	  243	 			 
+1adq_fixed	L	L	L	V	  205	 	  244	 			 
+1adq_fixed	L	L	L	E	  206	 	  245	 			 
+1adq_fixed	L	L	L	K	  207	 	  246	 			 
+1adq_fixed	L	L	L	T	  208	 	  247	 			 
+1adq_fixed	L	L	L	V	  209	 	  248	 			 
+1adq_fixed	L	L	L	A	  210	 	  249	 			 
+1adq_fixed	L	L	L	P	  211	 	  250	 			 
+1adq_fixed	L	L	L	T	  212	 	  251	 			 
+1adq_fixed	L	L	L	E	  213	 	  252	 			 
+1adq_fixed	L	L	L	C	  214	 	  253	 			 
+1adq_fixed	L	L	L	S	  215	 	  254	 			 
+
