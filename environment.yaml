@@ -19,3 +19,4 @@ dependencies:
       - pyfunctional
       - pycomfort
       - tdqm
+      - polars
