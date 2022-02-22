@@ -15,6 +15,7 @@ dependencies:
   - vmd-python
   - pyrosetta
   - prody
+  - dvc
   - pip:
       - pyfunctional
       - pycomfort

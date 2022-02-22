@@ -1,2 +1,5 @@
-# hello-molecular-dynamics
-repository to learn a bit of MM
+# Antibody Moleculare Modeling and docking preprocessing repository
+
+This repository is devoted to two purposes:
+* preprocessing data for docking and further molecular dynamics
+* molecular modeling simulations
