@@ -14,6 +14,7 @@ dependencies:
   - click
   - vmd-python
   - pyrosetta
+  - pyrosetta_extensions
   - prody
   - dvc
   - pip:
