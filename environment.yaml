@@ -16,6 +16,7 @@ dependencies:
   - pyrosetta
   - pyrosetta_extensions
   - prody
+  - polars
   - dvc
   - pip:
       - pyfunctional
