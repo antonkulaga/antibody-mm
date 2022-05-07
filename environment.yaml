@@ -21,6 +21,7 @@ dependencies:
   - polars
   - dvc
   - openmmtools
+  - biopandas
   - pip:
       - pyfunctional
       - pycomfort
