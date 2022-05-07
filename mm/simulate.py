@@ -30,8 +30,8 @@ def make_simulation(pdb_path: Path, delete_water: bool = True, add_hydrogens: bo
         #forcefield = ForceField('amber14-all.xml', 'amber14/tip3pfb.xml')
     system = forcefield.createSystem(modeller.topology,
                                      nonbondedMethod=CutoffNonPeriodic,
-                                     nonbondedCutoff=1.2*nanometer,
-                                     switchDistance=1.0*nanometer,
+                                     nonbondedCutoff=1.2 * nanometer,
+                                     switchDistance=1.0 * nanometer,
                                      constraints=HBonds
                                      #implicitSolvent=app.GBn2, implicitSolventSaltConc=0.15*moles/liter
                                      )
@@ -42,7 +42,7 @@ def make_simulation(pdb_path: Path, delete_water: bool = True, add_hydrogens: bo
 
 
 def with_reporters(simulation: Simulation, pdb: Path, where: Path,
-                   report_interval: int = 1000, checkpoint_interval: int = 10000,
+                   report_interval: int = 10000, checkpoint_interval: int = 100000,
                    #report_pdb: bool = True #pdb reporter can be heavy
                    ):
     #simulation.reporters.append(PDBReporter((where / f'{pdb.stem}.dcd').as_posix(), report_interval))
@@ -69,12 +69,13 @@ def save_results(sim: Simulation, pdb: Path, where: Path) -> Simulation:
 def simulate(pdb_path: Path,  output: Path, nano: int):
     print(f"starting the simulation with {pdb_path} , results will be saved to {output} for {nano} nanoseconds")
     initial_sim = make_simulation(pdb_path)
-    sim = with_reporters(initial_sim, pdb_path, output)
-    steps = round(nano / 2 * 5000000)
+    k = 5000000
+    sim = with_reporters(initial_sim, pdb_path, output, nano * 1000, nano * 10000)
+    steps = round(k * nano / 2)
     print(f"number of steps is {steps}")
     sim.step(steps)
     print("SAVING RESULTS:")
-    save_results(sim, output)
+    save_results(sim, pdb_path, output)
     print("output folder is:")
     tprint(output)
     return output.as_posix()
