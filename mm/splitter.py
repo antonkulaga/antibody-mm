@@ -36,7 +36,7 @@ def split(p: Path) -> tuple[PandasPdb, PandasPdb, PandasPdb]:
     #updating antibody and antigen frames
 
     antibody.df["ATOM"] = antibody_atoms
-    antibody.df["OTHERS"] = antigen_others_updated
+    antibody.df["OTHERS"] = antibody_others_updated
 
     antigen.df["ATOM"] = antigen_atoms
     antigen.df["OTHERS"] = antigen_others_updated
@@ -47,11 +47,14 @@ def split_and_write(p: Path, where: Path = None) -> Path:
     if where is None:
         where = p.parent / p.stem
     where.mkdir(exist_ok=True, parents=True)
-    antibody, antigen, pdb = split(p)
+    antibody, antigen, both = split(p)
     antibody_path = str(where / p.name.replace(".pdb", "_antibody.pdb"))
     print(f"writing antibody to {antibody_path}")
     antibody.to_pdb(antibody_path)
     antigen_path = str(where / p.name.replace(".pdb", "_antigen.pdb"))
     print(f"writing antigen to {antigen_path}")
     antigen.to_pdb(antigen_path)
+    print(f"writing antibody_antigen_complex to {antigen_path}")
+    both_path = str(where / p.name.replace(".pdb", "_antibody_antigen_complex.pdb"))
+    both.to_pdb(both_path)
     return where
