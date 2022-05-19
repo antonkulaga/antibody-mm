@@ -42,7 +42,7 @@ def make_simulation(pdb_path: Path, delete_water: bool = True, add_hydrogens: bo
 
 
 def with_reporters(simulation: Simulation, pdb: Path, where: Path,
-                   report_interval: int = 10000, checkpoint_interval: int = 100000,
+                   report_interval: int = 100000, checkpoint_interval: int = 500000,
                    #report_pdb: bool = True #pdb reporter can be heavy
                    ):
     #simulation.reporters.append(PDBReporter((where / f'{pdb.stem}.dcd').as_posix(), report_interval))
@@ -84,7 +84,7 @@ def simulate(pdb_path: Path,  output: Path, nano: int):
 @click.command()
 @click.option('--pdb', type=click.Path(exists=True), help='antibody path')
 @click.option('--output', type=click.Path(exists=False), default="/data/docking/", help='output')
-@click.option('--nano',  type=click.INT, default=10, help="nanoseconds")
+@click.option('--nano',  type=click.INT, default=40, help="nanoseconds")
 def cli(pdb: str, output, nano: int):
     out = Path(output)
     out.mkdir(exist_ok=True)
