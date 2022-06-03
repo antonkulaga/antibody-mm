@@ -24,7 +24,7 @@ python mm/simulate.py --pdb /data/samples/docking/RA/results/best/S5205Nr1-P2_Ig
 
 For example if you want to run in the background:
 ```bash
-screen -S FIXED_3_17806_H_35_energy_-224.0373
+screen -S FIXED_2_27457_H_244_energy_-284.44533_antigen
 micromamba activate antibody-mm
-python mm/simulate.py --pdb /data/samples/docking/RA/results/best/S5205Nr1-P2_IgG1Fc_H_top_30_heavy_chains/FIXED_3_17806_H_35_energy_-224.0373/FIXED_3_17806_H_35_energy_-224.0373_antibody.pdb --output /media/antonkulaga/Elements/molecular_dynamics
+python mm/simulate.py --pdb /data/samples/docking/RA/results/best/S5205Nr1-P2_IgG1Fc_H_top_30_heavy_chains/FIXED_2_27457_H_244_energy_-284.44533/FIXED_2_27457_H_244_energy_-284.44533_antigen.pdb --output /media/antonkulaga/Elements/molecular_dynamics
 ```
