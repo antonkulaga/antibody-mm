@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 import click
+from pycomfort.files import *
 from mdtraj.reporters import *
 from openmm.app import *
-from pycomfort.files import *
 from openmmtools.utils import with_timer
 from openmm.openmm import *
 from openmm.unit import *
@@ -55,11 +55,12 @@ def with_reporters(simulation: Simulation, pdb: Path, where: Path,
     return simulation
 
 
-def save_results(sim: Simulation, pdb: Path, where: Path) -> Simulation:
+def save_results(sim: Simulation, pdb: Union[Path, str], where: Path) -> Simulation:
     if not where.exists():
         where.mkdir()
     finalpositions = sim.context.getState(getPositions=True).getPositions()
-    PDBFile.writeFile(sim.topology, finalpositions, open((where / f'{pdb.stem}.pdb').as_posix(), 'w'))
+    out = where / pdb if pdb is str else where / f'{pdb.stem}.pdb'
+    PDBFile.writeFile(sim.topology, finalpositions, open(out.as_posix(), 'w'))
     sim.saveState((where/ f'{pdb.stem}_results.xml').as_posix())
     sim.saveCheckpoint((where / f'{pdb.stem}_results.chk').as_posix())
     return sim
